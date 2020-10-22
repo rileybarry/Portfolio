@@ -20,7 +20,7 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='bank_income_data' name='excel-direct.06ulp9503tto3s13elm190bv65sx'>
-            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/badge/OneDrive - Creighton University/School/FIN 355/Tableau/bank_income_data.xlsx' interpretationMode='0' password='' server='' validate='no' />
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/badge/Dropbox/Portfolio/Portfolio/Sample 6/Sample 6.xlsx' interpretationMode='0' password='' server='' validate='no' />
           </named-connection>
         </named-connections>
         <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.06ulp9503tto3s13elm190bv65sx' name='Sheet1' table='[Sheet1$]' type='table'>
