@@ -1,0 +1,110 @@
+{
+  "!type": "Form",
+  "HTML": null,
+  "attributes": "",
+  "background": "",
+  "backgroundimage": "",
+  "borderColor": "",
+  "borderStyle": "",
+  "borderWidth": "",
+  "cached_js": null,
+  "cached_js_script_hash": null,
+  "children": [
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "recipeApi",
+        "Elements",
+        "hbgrPageRecipeYourList.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "recipeApi",
+        "Elements",
+        "btnTJ.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "recipeApi",
+        "Elements",
+        "btnIngredients.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "recipeApi",
+        "Elements",
+        "txtaIngredients.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "recipeApi",
+        "Elements",
+        "alrtList.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "recipeApi",
+        "Elements",
+        "inptTJ.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "recipeApi",
+        "Elements",
+        "inptType.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "recipeApi",
+        "Elements",
+        "lblTitle.json"
+      ]
+    }
+  ],
+  "class": "",
+  "designHeight": 0,
+  "designWidth": 0,
+  "expanded_pmp": null,
+  "fullScreen": "true",
+  "height": 460,
+  "id": "recipeApi",
+  "language": "JavaScript",
+  "left": "0",
+  "locked": false,
+  "modal": "false",
+  "onhide": "",
+  "onkeypress": "",
+  "onresize": "",
+  "onshow": "recipeApi.onshow()",
+  "openMode": "none",
+  "parentForm": "",
+  "position": "absolute",
+  "script": null,
+  "setFocusID": "",
+  "style": "",
+  "theme": "",
+  "top": "0",
+  "width": 320
+}

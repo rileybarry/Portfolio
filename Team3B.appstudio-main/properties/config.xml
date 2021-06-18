@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget 
+xmlns = "https://www.w3.org/ns/widgets"
+xmlns:gap = "http://phonegap.com/ns/1.0"
+id = "com.nsbasic.{id}"
+android-versionCode = "{phoneGapBuildCounter}"
+ios-CFBundleVersion = "{phoneGapBuildCounter}"
+version = "{version}">
+
+<name>{title}</name>
+<description>{description}</description>
+
+<icon src='{icon}' />
+<preference name='SplashScreenDelay' value='2000' />
+<preference name='AutoHideSplashScreen' value='true' />
+<plugin name='cordova-plugin-splashscreen' source='npm' />
+
+<preference name="permissions" value="none"/>
+<!-- sample preference specifications -->
+<!-- <preference name="autorotate" value="false" readonly="true"/> -->
+<!-- <preference name="orientation" value="default" /> -->
+<!-- <preference name="fullscreen" value="true" /> -->
+
+<!-- Platforms: Customize as needed. -->
+<platforms>
+   <platform name="android" />
+   <platform name="ios" />
+</platforms>
+
+<plugin name="cordova-plugin-statusbar" source="npm" />
+  <preference name="StatusBarOverlaysWebView" value="{phoneGapStatusBarOverlay}" />
+  <preference name="StatusBarBackgroundColor" value="{phoneGapStatusBarColor}" />
+  <preference name="StatusBarStyle" value="{phoneGapStatusBarStyle}" />
+
+<plugin name="cordova-plugin-whitelist" source="npm" />
+  <allow-navigation href="*" />
+  <access origin="*" />
+  <allow-intent href="*" />
+
+<plugin name="cordova-plugin-wkwebview-engine" source="npm" />
+<platform name="ios">
+  <preference name="WKWebViewOnly" value="true" />
+  <feature name="CDVWKWebViewEngine">
+    <param name="ios-package" value="CDVWKWebViewEngine" />
+  </feature>
+  <preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
+</platform>
+
+</widget>

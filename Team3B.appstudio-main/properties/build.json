@@ -1,0 +1,37 @@
+{
+  "ios": {
+    "debug": {
+      "codeSignIdentity": "iPhone Developer",
+      "provisioningProfile": "8b3aafc5-e001-4bbe-ac6f-bc6df8ab2534",
+      "developmentTeam": "J36MEHTA7K",
+      "packageType": "development",
+      "automaticProvisioning": true,
+      "buildFlag": [
+        "EMBEDDED_CONTENT_CONTAINS_SWIFT = YES",
+        "ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES=NO",
+        "LD_RUNPATH_SEARCH_PATHS = \"@executable_path/Frameworks\""
+      ]
+    },
+    "release": {
+      "codeSignIdentity": "iPhone Developer",
+      "developmentTeam": "J36MEHTA7K",
+      "packageType": "app-store",
+      "automaticProvisioning": true,
+      "buildFlag": [
+        "EMBEDDED_CONTENT_CONTAINS_SWIFT = YES",
+        "ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES=NO",
+        "LD_RUNPATH_SEARCH_PATHS = \"@executable_path/Frameworks\""
+      ]
+    }
+  },
+  "android": {
+    "release": {
+      "keystore": "certificates/android.keystore",
+      "storePassword": "mypassword",
+      "alias": "key0",
+      "password": "mypassword",
+      "keystoreType": "",
+      "dname": "cn=Eric Cartman, o=appstudio c=us"
+    }
+  }
+}

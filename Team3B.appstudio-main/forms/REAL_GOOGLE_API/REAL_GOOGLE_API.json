@@ -1,0 +1,101 @@
+{
+  "!type": "Form",
+  "HTML": null,
+  "attributes": "",
+  "background": "",
+  "backgroundimage": "",
+  "borderColor": "",
+  "borderStyle": "",
+  "borderWidth": "",
+  "cached_js": null,
+  "cached_js_script_hash": null,
+  "children": [
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "REAL_GOOGLE_API",
+        "Elements",
+        "gmLocations2.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "REAL_GOOGLE_API",
+        "Elements",
+        "txtaLocation2.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "REAL_GOOGLE_API",
+        "Elements",
+        "btnLocation2.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "REAL_GOOGLE_API",
+        "Elements",
+        "btnCL42.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "REAL_GOOGLE_API",
+        "Elements",
+        "btnClear2.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "REAL_GOOGLE_API",
+        "Elements",
+        "drpLocation.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "REAL_GOOGLE_API",
+        "Elements",
+        "hmbMenu3.json"
+      ]
+    }
+  ],
+  "class": "",
+  "designHeight": 0,
+  "designWidth": 0,
+  "expanded_pmp": null,
+  "fullScreen": "true",
+  "height": 460,
+  "id": "REAL_GOOGLE_API",
+  "language": "JavaScript",
+  "left": "0",
+  "locked": false,
+  "modal": "false",
+  "onhide": "",
+  "onkeypress": "",
+  "onresize": "",
+  "onshow": "",
+  "openMode": "none",
+  "parentForm": "",
+  "position": "absolute",
+  "script": null,
+  "setFocusID": "",
+  "style": "",
+  "theme": "",
+  "top": "0",
+  "width": 320
+}

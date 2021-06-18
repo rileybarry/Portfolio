@@ -1,0 +1,83 @@
+{
+  "!type": "Form",
+  "HTML": null,
+  "attributes": "",
+  "background": "",
+  "backgroundimage": "",
+  "borderColor": "",
+  "borderStyle": "",
+  "borderWidth": "",
+  "cached_js": null,
+  "cached_js_script_hash": null,
+  "children": [
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "createAccount",
+        "Elements",
+        "inptCreateUser.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "createAccount",
+        "Elements",
+        "inptPassOne.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "createAccount",
+        "Elements",
+        "inptPassTwo.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "createAccount",
+        "Elements",
+        "btnCreateAcc.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "createAccount",
+        "Elements",
+        "lblUserWarning.json"
+      ]
+    }
+  ],
+  "class": "",
+  "designHeight": 0,
+  "designWidth": 500,
+  "expanded_pmp": null,
+  "fullScreen": "true",
+  "height": 460,
+  "id": "createAccount",
+  "language": "JavaScript",
+  "left": "0",
+  "locked": false,
+  "modal": "false",
+  "onhide": "",
+  "onkeypress": "",
+  "onresize": "",
+  "onshow": "createAccount.onshow()",
+  "openMode": "none",
+  "parentForm": "",
+  "position": "absolute",
+  "script": null,
+  "setFocusID": "",
+  "style": "",
+  "theme": "",
+  "top": "0",
+  "width": 320
+}
